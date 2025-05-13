@@ -9,4 +9,48 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+p {
+  line-height: 1.6;
+}
+
+h1 {
+  margin-bottom: 48px;
+}
+
+h2 {
+  background: hsl(45deg, 100%, 50%);
+  max-width: 50%;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  padding: 1.4rem;
+  margin-left: -1.4rem;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 64px 0 48px;
+}
+
+.intro-chunk {
+  padding: 0 1rem;
+  width: 50%;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+  padding: 48px 0;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1rem;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
